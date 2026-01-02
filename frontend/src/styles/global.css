@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base document behavior */
+@layer base {
+  html {
+    @apply bg-white text-black;
+  }
+
+  html.dark {
+    @apply bg-black text-white;
+  }
+
+  body {
+    @apply min-h-screen font-serif antialiased;
+  }
+}
